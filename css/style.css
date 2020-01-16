@@ -73,7 +73,8 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	/* background: #7bc3d1; */
+	background: #0f4c81;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -97,6 +98,13 @@ hr {
 .navbar-custom .navbar-brand {
 	font-weight: 600;
 }
+
+.navbar-custom .navbar-brand a:hover {
+	outline: 0;
+	color: #f2be54;
+	background-color: transparent;
+}
+
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
 }
@@ -120,13 +128,16 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	/* color: #7bc3d1; */
+	/* color: #0f4c81; */
+	color: #f2be54;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	/* color: #7bc3d1; */
+	color: #f2be54;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -160,8 +171,10 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	/* background-color: #7bc3d1; */
+	background-color: #0f4c81;
+	/* border-color: #7bc3d1; */
+	border-color: #0f4c81;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -188,7 +201,8 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #f6f6f6;
+	/* background: #f6f6f6; */
+	background: #ffffff;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -227,7 +241,8 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #7bc3d1;
+	/* background: #7bc3d1; */
+	background: #0f4c81;
 	color: #fff;
 	padding: 6px 14px;
 }
@@ -336,6 +351,12 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+/* Selected Projects Section */
+#projects {
+	padding: 80px 0;
+	background: #ffffff; /* Old browsers */
+}
+
 /* Footer Section*/
 #footer {
 	background: #121d1f;
